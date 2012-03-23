@@ -1,0 +1,15 @@
+# .gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+activemodel -v3.2.2
+activerecord -v3.2.2
+activesupport -v3.2.2
+arel -v3.0.2
+builder -v3.0.0
+i18n -v0.6.0
+multi_json -v1.1.0
+mysql2 -v0.3.11
+rack -v1.4.1
+rack-protection -v1.2.0
+shotgun -v0.9
+sinatra -v1.3.2
+tilt -v1.3.3
+tzinfo -v0.3.32
