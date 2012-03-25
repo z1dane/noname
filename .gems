@@ -10,6 +10,7 @@ multi_json -v1.1.0
 mysql2 -v0.3.11
 rack -v1.4.1
 rack-protection -v1.2.0
+rack-test -v0.6.1
 rspec -v2.9.0
 rspec-core -v2.9.0
 rspec-expectations -v2.9.0
