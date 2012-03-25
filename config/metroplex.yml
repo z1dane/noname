@@ -1,0 +1,12 @@
+development:
+  log_level: debug
+  raise_errors: true
+
+test:
+  log_level: info
+  raise_errors: true
+
+production:
+  log_level: info
+  raise_errors: false
+  

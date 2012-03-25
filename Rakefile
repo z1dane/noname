@@ -1,8 +1,8 @@
 require 'active_record'
 require 'fileutils'
-env = ENV['RACK_ENV'] || 'development'
+env = ENV['RACK_ENV'] || :development
 
-db_settings = YAML.load_file(File.join(File.dirname('__FILE__'), 'config', 'database.yml'))[env]
+db_settings = YAML.load_file(File.join(File.dirname('__FILE__'), 'config', 'database.yml'))[env.to_s]
 ActiveRecord::Base.establish_connection(db_settings)
 
 namespace :db do

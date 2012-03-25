@@ -1,3 +1,3 @@
-require File.dirname(__FILE__) + '/board.rb'
+require File.dirname(__FILE__) + '/metroplex.rb'
 use Rack::ShowExceptions
-run Board.new
+run Metroplex.new

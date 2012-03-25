@@ -4,3 +4,10 @@ development:
   username: root
   password: "1234"
   database: forum_development
+
+test:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: "1234"
+  database: forum_test
